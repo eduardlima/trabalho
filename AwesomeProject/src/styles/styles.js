@@ -39,6 +39,7 @@ export default StyleSheet.create({
   result: {
     fontSize: 30,
     marginTop: 20,
+    color: "white",
   },
   
   text: {
@@ -49,5 +50,7 @@ export default StyleSheet.create({
   },
   ex:{
     fontSize: 27,
+    color: "white",
+    fontFamily: 'Roboto',
   },
 });
