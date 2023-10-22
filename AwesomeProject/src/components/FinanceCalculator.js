@@ -13,13 +13,8 @@ const FinanceCalculator = () => {
       setResult('Por favor, insira valores numéricos válidos');
       return;
     }
-
-    const mensalidade = parseFloat(taxa) / 12 / 100; // Taxa de juros mensal
-    const Meses = parseFloat(tempo) * 12; // Número de meses
-
-    // Fórmula dos juros compostos
-    const total = parseFloat(principal) * (Math.pow(1 + mensalidade, Meses) - 1) / (mensalidade * Math.pow(1 + mensalidade, Meses));
-
+    const interest = (principal * taxa * tempo) / 100;
+    const total = parseFloat(principal) + interest;
     setResult(total.toFixed(2));
   };
 
