@@ -22,22 +22,25 @@ const FinanceCalculator = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text} >Calculadora de Financiamento</Text>
+      <Text style={styles.ex} >Principal</Text>
       <TextInput
         style={styles.input}
-        placeholder="Principal"
+        placeholder=""
         keyboardType="numeric"
         onChangeText={(value) => setPrincipal(value)}
       />
+      <Text style={styles.ex} >Taxa de juros (%)</Text>
       <TextInput
         style={styles.input}
-        placeholder="Taxa de juros (%)"
+        placeholder=""
         keyboardType="numeric"
         onChangeText={(value) => settaxa(value)}
        
       />
+      <Text style={styles.ex} >Tempo (em anos)</Text>
       <TextInput
         style={styles.input}
-        placeholder="Tempo (em anos)"
+        placeholder=""
         keyboardType="numeric"
         onChangeText={(value) => settempo(value)}
       />

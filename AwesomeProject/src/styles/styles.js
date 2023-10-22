@@ -14,8 +14,8 @@ export default StyleSheet.create({
   },
   input: {
 
-    width: 500,
-    height: 80,
+    width: 380,
+    height: 60,
     borderColor: '#ab90ff',
     borderWidth: 3,
     marginVertical: 7,
@@ -46,5 +46,8 @@ export default StyleSheet.create({
    height: 250,
    color:'#ffffff',
    fontFamily: 'Roboto',
+  },
+  ex:{
+    fontSize: 27,
   },
 });
