@@ -13,6 +13,7 @@ export default StyleSheet.create({
     marginBottom: 20,
   },
   input: {
+
     width: 500,
     height: 80,
     borderColor: '#ab90ff',
@@ -25,6 +26,8 @@ export default StyleSheet.create({
     color:'blue',
   },
   button: {
+    flex: 1, 
+    margin: 20,
     color: 'white',
     paddingHorizontal: 20,
     paddingVertical: 10,
