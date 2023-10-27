@@ -37,7 +37,7 @@ const FinanceCalculator = () => {
         onChangeText={(value) => settaxa(value)}
        
       />
-      <Text style={styles.ex} >Tempo (em anos)</Text>
+      <Text style={styles.ex} >Tempo </Text>
       <TextInput
         style={styles.input}
         placeholder=""
